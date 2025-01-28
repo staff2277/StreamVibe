@@ -37,6 +37,7 @@ const Preview = ({ moviesData }) => {
             <div className=" z-20 flex justify-center gap-4 mt-[3rem]">
               <button className="flex gap-3 bg-[#E50000] normal-case hover:bg-[#3a3a3a] focus:bg-[#3f3f3f] active:bg-[#3f3f3f] focus:outline-none focus:ring focus:ring-[#cac8c896] max-sm:px-[2rem] max-sm:py-[1rem] rounded-lg  sm:px-[3rem] sm:py-[1.3rem] max-5s:px-[1rem] max-5s:py-[0.5rem] max-5s:text-[0.9rem] max-5s:mt-[10px]">
                 <img src="/play.svg" alt="play-icon" />
+                Play Now
               </button>
               <button className="bg-[#141414] border-2 border-[#262626] 5s:p-[1rem] max-5s:p-[0.8rem] max-5s:text-[0.8rem] rounded-lg font-bold hover:bg-[#3a3a3a] focus:bg-[#3f3f3f] active:bg-[#3f3f3f] focus:outline-none focus:ring focus:ring-[#cac8c896]">
                 <img src="/fav.svg" alt="add to favourites icon" />
