@@ -11,7 +11,7 @@ const Trial = () => {
           </h3>
           <p className="my-3 max-xl:text-center text-[#999999] sm:text-[1rem] max-5s:text-[0.8rem]">
             This is a clear and concise call to action that encourages users to
-            sign up for a free trial of
+            sign up for a free trial of StreamVibe.
           </p>
         </div>
         <div>
