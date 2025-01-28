@@ -11,7 +11,7 @@ const Preview = ({ moviesData }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCount((prevCount) => (prevCount + 1) % moviesbg.length);
-    }, 5000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, [moviesbg.length]);
